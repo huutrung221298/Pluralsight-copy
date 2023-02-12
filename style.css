@@ -70,11 +70,11 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 1.3rem;
     width: 100%;
     border: 1px solid #555;
-    border-radius: 2px;
+    border-radius: 8px;
     background: #181818;
     color: #ccc;
-    padding: 0.5rem 1rem;
-    line-height: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    line-height: 2rem;
 }
 
 #signin .primary-btn{
@@ -82,11 +82,10 @@ h1, h2, h3, h4, h5, h6{
 }
 /* Button */
 .primary-btn{
-    padding: 0.7rem 1rem;
+    padding: 0 1rem;
     height: 2.7rem;
-    display:block;
     border:0;
-    border-radius: 2px;
+    border-radius: 8px;
     font-weight: 500;
     background: #f96816;
     color: white;
@@ -102,11 +101,9 @@ background-color: #ff7b39;
 
 
 .secondary-btn{
-    padding: 0.7rem 1rem;
-    height: 2.7rem;
-    display:block;
+    padding: 0 1rem;
     border: 1px solid #f4f4f4;
-    border-radius: 2px;
+    border-radius: 8px;
     font-weight: 500;
     background: none;
     color: white;
@@ -114,6 +111,7 @@ background-color: #ff7b39;
     cursor: pointer;
     text-align: center;
     transition: all 0.5s;
+    line-height: 2.5rem;
 }
 
 .secondary-btn:hover {
@@ -176,6 +174,7 @@ background-color: #ff7b39;
     justify-content: center;
     align-items: center;
 }
+
 #showcase .showcase-text {
     font-size: 3rem;
     width: 100%;
@@ -186,6 +185,7 @@ background-color: #ff7b39;
 #showcase .secondary-btn{
     width: 60%;
     margin: auto;
+    display: block;
 }
 @media(min-width: 1200px){
     #left{
@@ -204,8 +204,6 @@ background-color: #ff7b39;
     #right{
         display:none;
     }
-
-    
 
 }
 
